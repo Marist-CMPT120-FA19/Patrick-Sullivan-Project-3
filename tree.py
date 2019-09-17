@@ -1,4 +1,4 @@
->>> def main():
+def main():
 	h= int(input("Enter height of tree:"))
 	if h < 0:
 		print("The tree height is invalid. Try again!")
@@ -7,4 +7,4 @@
 		print(" "*(h-1)+"#")
 
 		
->>> main()
+main()
